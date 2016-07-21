@@ -1,6 +1,6 @@
 def word_sorting(sentence)
 	stripped_sentence = sentence.downcase.gsub(/[^a-z0-9\s]/i, '')
-	
+	sorted_sentence= stripped_sentence.split(' ').sort
 end
 
 print word_sorting("Have a nice day.")
